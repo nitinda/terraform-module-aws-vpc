@@ -1,7 +1,7 @@
 <!--BEGIN STABILITY BANNER-->
 ---
 
-![_Code: Stable_](https://img.shields.io/badge/Code-Stable-brightgreen?style=plastic&logo=github)
+![_Stability: Stable_](https://img.shields.io/badge/stability-Stable-success.svg?style=plastic)
 
 > **_This is a stable example. It should successfully build out of the box_**
 >
