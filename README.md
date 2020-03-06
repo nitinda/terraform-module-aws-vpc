@@ -1,7 +1,11 @@
+# _Terraform Module: terraform-module-aws-vpc_
+_Terraform module for AWS VPC_
+
+
 <!--BEGIN STABILITY BANNER-->
 ---
 
-![_Code: Stable_](https://img.shields.io/badge/Code-Stable-brightgreen?style=for-the-badge&logo=github)
+![_Code : Stable_](https://img.shields.io/badge/Code-Stable-brightgreen?style=for-the-badge&logo=github)
 
 > **_This is a stable example. It should successfully build out of the box_**
 >
@@ -9,10 +13,6 @@
 
 ---
 <!--END STABILITY BANNER-->
-
-# _Terraform Module: terraform-module-aws-vpc_
-_Terraform module for AWS VPC_
-
 
 ## _General_
 
