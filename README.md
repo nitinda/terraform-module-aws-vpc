@@ -1,7 +1,7 @@
 <!--BEGIN STABILITY BANNER-->
 ---
 
-![_Stability: Stable_](https://img.shields.io/badge/stability-Stable-success.svg?style=plastic)
+![_Stability: Stable_](https://img.shields.io/badge/stability-Stable-success.svg?style=for-the-badge)
 
 > **_This is a stable example. It should successfully build out of the box_**
 >
