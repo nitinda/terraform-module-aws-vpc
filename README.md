@@ -34,7 +34,7 @@ _You can download the latest Terraform version from_ [_here_](https://www.terraf
 
 _Below we are able to check the resources that are being created as part of this module call:_
 
-- _**RDS Cluster**_
+- _**VPC**_
 
 
 ---
@@ -62,8 +62,11 @@ _The variables required in order for the module to be successfully called from t
 
 |**_Variable_** | **_Description_** | **_Type_** | **_Argument Status_** |
 |:----|:----|-----:|:---:|
-| **_engine_** | _The name of the database engine_ | _string_ | **_Required_** |
-| **_tags_** | _Resource tags_ | _map(string)_ | **_Required_** |
+| **_cidr\_block_** | _The CIDR block for the VPC_ | _string_ | **_Required_** |
+| **_instance\_tenancy_** | _A tenancy option for instances launched into the VPC_ | _string_ | **_Optional (Default - Null)_** |
+| **_enable\_dns\_support_** | _A boolean flag to enable/disable DNS support in the VPC_ | _bool_ | **_Optional (Default - true)_** |
+| **_enable\_dns\_hostnames_** | _A boolean flag to enable/disable DNS hostnames in the VPC_ | _bool_ | **_Optional (Default - false)_** |
+| **_tags_** | _A mapping of tags to assign to the resource_ | _map(string)_ | **_Required_** |
 
 
 ---
