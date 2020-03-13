@@ -63,12 +63,12 @@ _The variables required in order for the module to be successfully called from t
 |**_Variable_** | **_Description_** | **_Type_** | **_Argument Status_** |
 |:----|:----|-----:|:---:|
 | **_cidr\_block_** | _The CIDR block for the VPC_ | _string_ | **_Required_** |
-| **_instance\_tenancy_** | _A tenancy option for instances launched into the VPC_ | _string_ | **_Optional (Default - Null)_** |
+| **_instance\_tenancy_** | _A tenancy option for instances <br/> launched into the VPC_ | _string_ | **_Optional (Default - Null)_** |
 | **_enable\_dns\_support_** | _A boolean flag to enable/disable <br/> DNS support in the VPC_ | _bool_ | **_Optional (Default - true)_** |
 | **_enable\_dns\_hostnames_** | _A boolean flag to enable/disable <br/> DNS hostnames in the VPC_ | _bool_ | **_Optional (Default - false)_** |
 | **_enable\_classiclink_** | _A boolean flag to enable/disable <br/> ClassicLink for the VPC_ | _bool_ | **_Optional (Default - false)_** |
 | **_enable\classiclink\_dns\support_** | _A boolean flag to enable/disable <br/> ClassicLink DNS Support for the VPC_ | _bool_ | **_Optional (Default - false)_** |
-| **_assign\_generated\_ipv6\_cidr\_block_** | _Requests an Amazon-provided IPv6 CIDR block <br/> with a /56 prefix length for the VPC._ | _bool_ | **_Optional (Default - false)_** |
+| **_assign\_generated\_ipv6\_cidr\_block_** | _Requests an Amazon-provided  <br/> IPv6 CIDR block with a /56 <br/> prefix length for the VPC._ | _bool_ | **_Optional (Default - false)_** |
 | **_tags_** | _A mapping of tags to assign to the resource_ | _map(string)_ | **_Required_** |
 
 
