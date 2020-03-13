@@ -45,10 +45,33 @@ _Below we are able to check the resources that are being created as part of this
 
 _To use this module, add the following call to your code:_
 
+- **_Sample Code:_**
+
 ```tf
 module "vpc" {
   source = "git::https://github.com/nitinda/terraform-module-aws-vpc.git?ref=master"
 
+
+  cidr_block       = "10.0.0.0/16"
+  instance_tenancy = "dedicated"
+  tags             = {
+    Environment = "prod"
+    Project     = "POC"
+  }
+
+}
+```
+
+```tf
+module "vpc" {
+  source = "git::https://github.com/nitinda/terraform-module-aws-vpc.git?ref=master"
+
+
+  cidr_block = "10.0.0.0/16"
+  tags       = {
+    Environment = "prod"
+    Project     = "POC"
+  }
 
 }
 ```
