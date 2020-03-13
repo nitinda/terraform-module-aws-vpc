@@ -110,6 +110,7 @@ _This module has the following outputs:_
 * **_arn_**
 * **_cidr\_block_**
 
+---
 
 ### _Usage_
 
