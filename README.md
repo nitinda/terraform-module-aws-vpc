@@ -16,7 +16,7 @@ _Terraform module for AWS VPC_
 
 ## _General_
 
-_This module can be used to deploy a **_VPC_** on AWS Cloud Provider......_
+_This module can be used to deploy a_ **_VPC_** _on AWS Cloud Provider......_
 
 
 ---
@@ -107,7 +107,6 @@ _This module has the following outputs:_
 
 * **_arn_**
 * **_id_**
-* **_arn_**
 * **_cidr\_block_**
 
 ---
